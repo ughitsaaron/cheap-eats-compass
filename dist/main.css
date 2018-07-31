@@ -1,0 +1,94 @@
+:root {
+  --primary: #fafafa;
+  --secondary: #303030;
+  --font: "Playfair Display", Georgia, serif;
+  --font-size: 19px;
+}
+
+html,
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: var(--font-size);
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+button {
+  background-color: var(--primary);
+  border-radius: 3px;
+  border: var(--secondary) 1px solid;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+  color: var(--secondary);
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 16px;
+  outline: none;
+  padding: 2px 12px;
+}
+
+button:hover {
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.credits {
+  font-size: 16px;
+}
+
+.compass-target {
+  filter: url(#dropshadow);
+}
+
+.compass-target.heading-matches {
+  fill: #81cc8c;
+}
+
+.compass-cardinal {
+  stroke: var(--secondary);
+}
+
+.compass-cardinal text {
+  font-family: var(--font);
+  font-size: 22px;
+}
+
+.compass polygon {
+  fill: #fafafa;
+  filter: url(#dropshadow);
+  stroke-width: 4;
+  stroke: var(--secondary);
+}
+
+.compass-cardinal .outline {
+  fill: none;
+  stroke-width: 15;
+  stroke-dasharray: 2 11;
+}
+
+.compass-cardinal .pin {
+  fill: none;
+  stroke-width: 4;
+}
+
+.compass {
+  height: 300px;
+  margin: 0 auto;
+  max-width: 500px;
+  position: relative;
+}
+
+@media screen and (min-width: 375px) {
+  .compass-container {
+    height: 400px;
+  }
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Madcap Cafe",
+    "location": {
+      "formatted_address": "387 Court St Brooklyn, NY 11231"
+    },
+    "coordinates": {
+      "latitude": 40.68007,
+      "longitude": -73.99685
+    }
+  },
+  {
+    "name": "Taqueria El Sinaloense",
+    "location": {
+      "formatted_address": "40-08 Case St Elmhurst, NY 11373"
+    },
+    "coordinates": {
+      "latitude": 40.7481136,
+      "longitude": -73.8767633
+    }
+  },
+  {
+    "name": "Petee's Pie Company",
+    "location": {
+      "formatted_address": "61 Delancey St New York, NY 10002"
+    },
+    "coordinates": {
+      "latitude": 40.7192158508607,
+      "longitude": -73.9912822511308
+    }
+  },
+  {
+    "name": "Ugly Baby",
+    "location": {
+      "formatted_address": "407 Smith St Brooklyn, NY 11231"
+    },
+    "coordinates": {
+      "latitude": 40.67793,
+      "longitude": -73.996014
+    }
+  },
+  {
+    "name": "BYGGYZ",
+    "location": {
+      "formatted_address": "37-39 Clinton St New York, NY 10002"
+    },
+    "coordinates": {
+      "latitude": 40.72003,
+      "longitude": -73.9847403
+    }
+  },
+  {
+    "name": "Lowerline",
+    "location": {
+      "formatted_address": "794 Washington Ave Brooklyn, NY 11238"
+    },
+    "coordinates": {
+      "latitude": 40.67421,
+      "longitude": -73.96324
+    }
+  },
+  {
+    "name": "German's Soup",
+    "location": {
+      "formatted_address": "793 Utica Ave, Brooklyn, NY 11203"
+    },
+    "coordinates": {
+      "latitude": 40.6540147,
+      "longitude": -73.9304022
+    }
+  },
+  {
+    "name": "Ho Foods",
+    "location": {
+      "formatted_address": "110 E 7th St New York, NY 10009"
+    },
+    "coordinates": {
+      "latitude": 40.72634,
+      "longitude": -73.98478
+    }
+  },
+  {
+    "name": "Boys Don’t Cry",
+    "location": {
+      "formatted_address": "22 Orchard St, New York, NY 10002"
+    },
+    "coordinates": {
+      "latitude": 40.71533362,
+      "longitude": -73.9936109
+    }
+  },
+  {
+    "name": "Kish-Kash",
+    "location": {
+      "formatted_address": "455 Hudson St New York, NY 10014"
+    },
+    "coordinates": {
+      "latitude": 40.7314099,
+      "longitude": -74.0070099
+    }
+  },
+  {
+    "name": "Ginger and Lemongrass",
+    "location": {
+      "formatted_address": "1008 Clintonville St Whitestone, NY 11357"
+    },
+    "coordinates": {
+      "latitude": 40.79262,
+      "longitude": -73.81312
+    }
+  },
+  {
+    "name": "Davelle",
+    "location": {
+      "formatted_address": "102 Suffolk St New York, NY 10002"
+    },
+    "coordinates": {
+      "latitude": 40.71852,
+      "longitude": -73.98605
+    }
+  },
+  {
+    "name": "Miznon",
+    "location": {
+      "formatted_address": "435 W 15th St New York, NY 10011"
+    },
+    "coordinates": {
+      "latitude": 40.7423643,
+      "longitude": -74.0062259
+    }
+  },
+  {
+    "name": "Tamra Teahouse",
+    "location": {
+      "formatted_address": "1524 Bergen St Brooklyn, NY 11213"
+    },
+    "coordinates": {
+      "latitude": 40.67506,
+      "longitude": -73.93287
+    }
+  },
+  {
+    "name": "Benyam Cuisine",
+    "location": {
+      "formatted_address": "2795 Frederick Douglas Blvd New York, NY 10039"
+    },
+    "coordinates": {
+      "latitude": 40.825227,
+      "longitude": -73.94057
+    }
+  },
+  {
+    "name": "Khao Nom",
+    "location": {
+      "formatted_address": "42-06 77th St Elmhurst, NY 11373"
+    },
+    "coordinates": {
+      "latitude": 40.7432731562959,
+      "longitude": -73.8879961885031
+    }
+  },
+  {
+    "name": "Risbo",
+    "location": {
+      "formatted_address": "701 Flatbush Ave Brooklyn, NY 11225"
+    },
+    "coordinates": {
+      "latitude": 40.6560593,
+      "longitude": -73.9597273
+    }
+  },
+  {
+    "name": "Daa! Dumplings",
+    "location": {
+      "formatted_address": "1000S St & 8th Ave New York, NY 10019"
+    },
+    "coordinates": {
+      "latitude": 40.7644799719167,
+      "longitude": -73.9844849330807
+    }
+  },
+  {
+    "name": "Pasta Flyer",
+    "location": {
+      "formatted_address": "510 6th Ave New York, NY 10011"
+    },
+    "coordinates": {
+      "latitude": 40.73713,
+      "longitude": -73.99678
+    }
+  },
+  {
+    "name": "Fuku",
+    "location": {
+      "formatted_address": "110 Wall St New York, NY 10005"
+    },
+    "coordinates": {
+      "latitude": 40.70478,
+      "longitude": -74.00652
+    }
+  },
+  {
+    "name": "South Of The Clouds",
+    "location": {
+      "formatted_address": "16 W 8th St New York, NY 10011"
+    },
+    "coordinates": {
+      "latitude": 40.73264,
+      "longitude": -73.99752
+    }
+  },
+  {
+    "name": "Caffe Marchio",
+    "location": {
+      "formatted_address": "30 E 30th St New York, NY 10016"
+    },
+    "coordinates": {
+      "latitude": 40.74494,
+      "longitude": -73.98429
+    }
+  },
+  {
+    "name": "Vini e Fritti",
+    "location": {
+      "formatted_address": "30 E 30th St New York, NY 10016"
+    },
+    "coordinates": {
+      "latitude": 40.74494,
+      "longitude": -73.98429
+    }
+  },
+  {
+    "name": "Simo Pizza",
+    "location": {
+      "formatted_address": "90-92 Gansevoort St New York, NY 10014"
+    },
+    "coordinates": {
+      "latitude": 40.7392597584612,
+      "longitude": -74.0088130692187
+    }
+  },
+  {
+    "name": "Uncle Boons Sister",
+    "location": {
+      "formatted_address": "203 Mott St New York, NY 10012"
+    },
+    "coordinates": {
+      "latitude": 40.72147,
+      "longitude": -73.99565
+    }
+  },
+  {
+    "name": "Martina Pizzeria",
+    "location": {
+      "formatted_address": "198 E 11th St New York, NY 10003"
+    },
+    "coordinates": {
+      "latitude": 40.7311478243198,
+      "longitude": -73.9883194379593
+    }
+  },
+  {
+    "name": "Tender Greens",
+    "location": {
+      "formatted_address": "900 Broadway New York, NY 10003"
+    },
+    "coordinates": {
+      "latitude": 40.73889,
+      "longitude": -73.9897
+    }
+  }
+]

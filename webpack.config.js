@@ -10,14 +10,7 @@ const client = {
     compress: true,
     open: true,
     port: 8000,
-    inline: false,
-    https: true,
-    allowedHosts: [
-      '127.0.0.1',
-      '0.0.0.0',
-      'tne-apetcoff-3754'
-    ],
-    host: '0.0.0.0'
+    host: 'localhost'
   },
   output: {
     pathinfo: true,

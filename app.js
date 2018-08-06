@@ -15,7 +15,13 @@ class Application extends React.Component {
   }
 
   _skipLocation = locations =>
-    [...locations.slice(1), locations[0]]
+    [...locations.slice(1), locations[0]];
+
+  componentDidMount() {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  }
 
   render() {
     return (
@@ -32,8 +38,11 @@ class Application extends React.Component {
           ]}>
             {([position, [ heading, errors ]]) => (
               <Destination locations={this.state.locations} position={position}>
-                {(destination, distance, bearing, adjustLocations) => (
-                  (errors.length) ? (
+                {(destination, distance, bearing, adjustLocations) => {
+                  const { latitude, longitude } = position;
+                  const dirUrl = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${destination.location.formatted_address}`;
+
+                  return (errors.length) ? (
                     <div>
                       <h3>Errors were detected</h3>
                       <ul>
@@ -42,7 +51,7 @@ class Application extends React.Component {
                     </div>
                   ) : (
                     <div className={Math.floor(bearing) === Math.floor(heading) ? 'bearing-matches' : null}>
-                      <p>The closest Cheap Eat is {destination.name} at {destination.location.formatted_address}.</p>
+                      <p>The closest Cheap Eat is {destination.name} at <a href={dirUrl}>{destination.location.formatted_address}</a>.</p>
                       <p>It is {distance} miles away.</p>
                       <Compass
                         bearing={bearing}
@@ -52,7 +61,7 @@ class Application extends React.Component {
                       </button>
                     </div>
                   )
-                )}
+                }}
               </Destination>
             )}
           </Composer>

@@ -1,10 +1,10 @@
 const filesToCache = [
-  '/dist/main.css',
-  '/dist/main.js',
+  'dist/main.css',
+  'dist/main.js',
   'index.html'
 ];
 
-const cacheName = 'testing-cache-v1';
+const cacheName = 'cache-v1';
 
 self.addEventListener('install', event => {
   event.waitUntil(
